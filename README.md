@@ -57,3 +57,9 @@ $ python main.py
 Accepting connections on http://0.0.0.0:8080
 ```
 
+## TODO
+
+- Users RESTful API
+  - marshmallow
+  - swagger-ui
+
