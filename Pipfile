@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+japronto="*"
+marshmallow="*"
+marshmallow-jsonapi="*"
+pymysql="*"
+enum34="*"
+pyOpenSSL="*"
+pytest="*"
+pytest-cov="*"
+circus="*" 
+sqlalchemy = "*"
+werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
