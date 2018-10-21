@@ -14,11 +14,12 @@ class Config:
 
     LOG_PATH = os.path.abspath(APP_DIR)+"/log"
 
-    MYSQL_DATABASE_USERNAME='japronto'
+    MYSQL_DATABASE_USERNAME='root'
     MYSQL_DATABASE_PASSWORD='japronto'
     MYSQL_DATABASE_NAME='japronto'
-    MYSQL_DATABASE_HOST='localhost'
-    MYSQL_PORT=os.getenv('MYSQL_PORT','33306')
+#    MYSQL_DATABASE_HOST='localhost'
+    MYSQL_DATABASE_HOST='mysql_japronto'
+    MYSQL_PORT=os.getenv('MYSQL_PORT','3306')
 
     SQLALCHEMY_ECHO = True
     SQLALCHEMY_TRACK_MODIFICATIONS = True
