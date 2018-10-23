@@ -9,4 +9,4 @@ RUN python3.6 get-pip.py
 RUN pip3 install pipenv
 RUN echo "export LC_ALL=en_US.utf-8" >> ~/.bashrc
 RUN echo "export LANG=en_US.utf-8" >> ~/.bashrc
-RUN source ~/.bashrc
+RUN source ~/.bashrc && cd /code && pipenv install https://github.com/squeaky-pl/japronto/archive/master.zip

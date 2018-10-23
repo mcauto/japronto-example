@@ -14,7 +14,6 @@ pytest-cov="*"
 circus="*" 
 sqlalchemy = "*"
 werkzeug = "*"
-"fcb869c" = {file = "https://github.com/squeaky-pl/japronto/archive/master.zip"}
 
 [dev-packages]
 
